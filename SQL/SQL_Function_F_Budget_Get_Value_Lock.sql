@@ -6,7 +6,7 @@
 -- =============================================
 
 Create Function F_Budget_Get_Value_Lock(
-@Category VARCHAR(255), -- 取数类型
+@Category VARCHAR(4000), -- 取数类型
 @Budget_Center_ID INT, -- 预算中心ID
 @Date VARCHAR(10), -- 日期
 @Budget_Item_ID INT, -- 预算项目ID
